@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 s.source_files = 'podTestLibrary/Classes/*.{h,m}'
 #s.resources = ["images/*.png", "classes/MyView.xib"]
 s.resource_bundles = {
-#'podTestLibraryPng' => ['podTestLibrary/Assets/*.png']
+ 'podTestLibraryPng' => ['podTestLibrary/Assets/*.png'],
  'podTestLibraryBundle' => ['podTestLibrary/Classes/*.xib']
 }
   #s.public_header_files = 'podTestLibrary/Classes/**/*.h'
